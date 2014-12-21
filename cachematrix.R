@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
-=======
 
 # makeCacheMatrix makes a list containing 4 functions: the original matrix and its cached inverse matrixes. Both can be
 # 'setted' or 'getted'. Therefore this list has 4 functions.
@@ -50,4 +33,3 @@ cacheSolve <- function(x, ...) {    # function with input x, which is created by
   x$set_inv(inverse)                # store the inverse in set_inv.
   inverse                           # return the inverse
 }
->>>>>>> Final submission Coursera
